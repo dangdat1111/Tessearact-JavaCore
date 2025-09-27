@@ -82,5 +82,19 @@ Bạn **không cần** lo lắng về việc tối ưu dấu `+` trong các trư
 | **Trong `System.out.println()`** | Ví dụ: `System.out.println("Giá trị: " + value);`. Việc nối chuỗi này chỉ xảy ra một lần và không nằm trong vòng lặp hiệu suất cao. |
 | **Trong toán tử số học** | Dấu `+` được dùng để cộng số (ví dụ: `int c = a + b;`). Đây là phép toán học thông thường, không liên quan đến việc nối chuỗi hay vấn đề hiệu suất Heap. |
          */
+
+
+        // String Buffer
+        StringBuffer sb = new StringBuffer("datdepzai");
+        sb.append(" vailon");
+        System.out.println(sb);
+        // String Builder
+        StringBuilder sb2 = new StringBuilder("lol");
+        sb2.append("faker");
+        System.out.println(sb2);
+
     }
+
+
+
 }
