@@ -8,7 +8,7 @@ public class AssignmentOperators {
 
         int num2 = 5;
         int result = ++num2; // 6
-        int result = num2++; // 5
+//        int result = num2++; // 5
         System.out.println(result);
     }
 }

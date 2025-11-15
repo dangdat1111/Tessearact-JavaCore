@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Variables {
     public static void main(String[] args) {
         int num = 3;
@@ -20,6 +22,7 @@ public class Variables {
         int[] myArray = {1,2,3,4};
         changeArray(myArray);
         System.out.println(myArray[0]); // 99
+        System.out.println(Arrays.toString(myArray)); //[99, 2, 3, 4]
     }
 
     private static void changeValue(int number) {
